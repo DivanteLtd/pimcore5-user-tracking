@@ -1,6 +1,6 @@
 # Pimcore 5 user tracking
 
-...
+This is a plugin that captures all requests on the admin panel side and writes to the MongoDB database. Plugin adds a sub-menu item ("User Tracking") under "Extras" in the main menu, on click it opens new tab with all requests.
 
 ## Compatibility
 This module is compatible with Pimcore 5.0.*@alpha.
