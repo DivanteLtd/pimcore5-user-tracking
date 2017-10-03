@@ -1,5 +1,5 @@
 {
-  "name": "divante-ltd/pimcore-notifications",
+  "name": "divante-ltd/pimcore5-user-tracking",
   "type": "pimcore-bundle",
   "description": "User tracking bundle for Pimcore 5",
   "keywords": [
