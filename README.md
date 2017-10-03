@@ -6,7 +6,7 @@
 This module is compatible with Pimcore 5.0.*@alpha.
 
 ## Requirements
-This plugin requires php >= 7.1.
+This plugin requires php >= 7.1 and php-mongodb extension (ext-mongodb).
 
 ## Installing/Getting started
 ### First step
@@ -14,7 +14,7 @@ This plugin requires php >= 7.1.
 composer require divante-ltd/pimcore5-user-tracking @dev
 ```
 ### Second step
-Open Extension tab in admin panel and install plugin. After this, installation is finished.
+Open Extension tab in admin panel and install plugin. Then, in the same tab, configure access data to MongoDB. After this, installation is finished.
 
 ## Contributing
 If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
