@@ -1,0 +1,4 @@
+divante_tracking:
+    resource: "@DivanteTrackingBundle/Controller/"
+    type:     annotation
+    prefix:   /admin

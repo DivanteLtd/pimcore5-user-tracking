@@ -1,0 +1,11 @@
+services:
+
+  Divante\TrackingBundle\EventListener\TrackingListener:
+    arguments: ['@pimcore_admin.security.token_storage_user_resolver']
+    calls:
+      - [setPimcoreContextResolver, ['@pimcore.service.request.pimcore_context_resolver']]
+    tags:
+      - {name: kernel.event_subscriber}
+
+  Divante\TrackingBundle\Installer:
+    public: true

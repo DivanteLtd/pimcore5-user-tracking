@@ -1,0 +1,40 @@
+{
+  "name": "divante-ltd/pimcore-notifications",
+  "type": "pimcore-bundle",
+  "description": "User tracking bundle for Pimcore 5",
+  "keywords": [
+    "pimcore",
+    "symfony",
+    "bundle",
+    "user tracking"
+  ],
+  "authors": [
+    {
+      "name": "DivanteLtd",
+      "email":  "pimcore@divante.pl",
+      "homepage": "http://divante.co"
+    },
+    {
+      "name": "Korneliusz Kirsz",
+      "email":  "kkirsz@divante.pl",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "pimcore/core-version": "5.0.*@alpha",
+    "mongodb/mongodb": "1.0@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Divante\\TrackingBundle\\": "/"
+    }
+  },
+  "extra": {
+    "pimcore": {
+      "bundles": [
+        "Divante\\TrackingBundle\\DivanteTrackingBundle"
+      ]
+    }
+  }
+}
