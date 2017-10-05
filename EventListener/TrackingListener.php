@@ -59,7 +59,7 @@ class TrackingListener implements EventSubscriberInterface
     /**
      * @param GetResponseEvent $event
      */
-    public function onKernelRequest(GetResponseEvent $event) : void
+    public function onKernelRequest(GetResponseEvent $event)
     {
         $request = $event->getRequest();
 
@@ -77,7 +77,7 @@ class TrackingListener implements EventSubscriberInterface
     /**
      * @param Request $request
      */
-    protected function logUsageStatistics(Request $request) : void
+    protected function logUsageStatistics(Request $request)
     {
         $user   = $this->userResolver->getUser();
         $params = $this->getParams($request);

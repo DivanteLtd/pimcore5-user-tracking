@@ -85,7 +85,7 @@ class UserTrack implements Persistable
     /**
      * @param ObjectID $id
      */
-    private function setId(ObjectId $id) : void
+    private function setId(ObjectId $id)
     {
         $this->id = $id;
     }
@@ -101,7 +101,7 @@ class UserTrack implements Persistable
     /**
      * @param UTCDateTime $createdAt
      */
-    private function setCreatedAt(UTCDateTime $createdAt) : void
+    private function setCreatedAt(UTCDateTime $createdAt)
     {
         $this->createdAt = $createdAt;
     }
@@ -117,7 +117,7 @@ class UserTrack implements Persistable
     /**
      * @param int $userId
      */
-    private function setUserId(int $userId) : void
+    private function setUserId(int $userId)
     {
         $this->userId = $userId;
     }
@@ -133,7 +133,7 @@ class UserTrack implements Persistable
     /**
      * @param string $controller
      */
-    private function setController(string $controller) : void
+    private function setController(string $controller)
     {
         $this->controller = $controller;
     }
@@ -149,7 +149,7 @@ class UserTrack implements Persistable
     /**
      * @param string $route
      */
-    private function setRoute(string $route) : void
+    private function setRoute(string $route)
     {
         $this->route = $route;
     }
@@ -165,7 +165,7 @@ class UserTrack implements Persistable
     /**
      * @param string $routeParams
      */
-    private function setRouteParams(string $routeParams) : void
+    private function setRouteParams(string $routeParams)
     {
         $this->routeParams = $routeParams;
     }
@@ -181,7 +181,7 @@ class UserTrack implements Persistable
     /**
      * @param string $params
      */
-    private function setParams(string $params) : void
+    private function setParams(string $params)
     {
         $this->params = $params;
     }

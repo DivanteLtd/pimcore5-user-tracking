@@ -50,7 +50,7 @@ class ConfigHelper
      * @param array $data
      * @param bool $overwrite
      */
-    public static function put(array $data, bool $overwrite = true) : void
+    public static function put(array $data, bool $overwrite = true)
     {
         $filename = self::getConfigFilename();
         if (!file_exists($filename) || $overwrite) {
