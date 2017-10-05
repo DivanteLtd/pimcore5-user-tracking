@@ -35,7 +35,7 @@ class UserTrackRepository
     /**
      * @param UserTrack $userTrack
      */
-    public function add(UserTrack $userTrack) : void
+    public function add(UserTrack $userTrack)
     {
         $this->collection->insertOne($userTrack);
     }
