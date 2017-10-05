@@ -11,7 +11,7 @@ This plugin requires php >= 7.0 and php-mongodb extension (ext-mongodb).
 ## Installing/Getting started
 ### First step
 ```
-composer require divante-ltd/pimcore5-user-tracking @dev
+composer require divante-ltd/pimcore5-user-tracking
 ```
 ### Second step
 Open Extension tab in admin panel and install plugin. Then, in the same tab, configure access data to MongoDB. After this, installation is finished.
